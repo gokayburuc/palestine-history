@@ -7,6 +7,27 @@
 	position: relative;
 }
 
+img {
+    top : 25px; 
+    bottom: 5px;
+    left: 10px;
+    right: 10px; 
+    position: relative ;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    max-height: 400px;
+    max-width : 300px;
+    z-index:1;
+}
+
+figcaption{
+    top: 0; 
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
 .timeline {
 	padding: 40px 0px;
 	width: 80%;
